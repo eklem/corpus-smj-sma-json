@@ -1,0 +1,26 @@
+{
+  "name": "corpus-smj-sma-json",
+  "version": "0.0.1",
+  "description": "Converting two other XML dataset repositories to JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eklem/corpus-smj-sma-json.git"
+  },
+  "keywords": [
+    "dataset"
+  ],
+  "devDependencies": {
+    "corpus-smj": "eklem/corpus-smj",
+    "corpus-sma": "eklem/corpus-sma"
+  },
+  "author": "Espen Klem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eklem/corpus-smj-sma-json/issues"
+  },
+  "homepage": "https://github.com/eklem/corpus-smj-sma-json#readme"
+}
