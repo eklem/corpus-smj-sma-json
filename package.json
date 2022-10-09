@@ -4,7 +4,10 @@
   "description": "Converting two other XML dataset repositories to JSON",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy": "npm run copy-sma && npm run copy-smj",
+    "copy-sma": "find ./node_modules/corpus-sma/converted -name '*.xml' -exec cp {} ./data/xml/sma/ \\;",
+    "copy-smj": "find ./node_modules/corpus-smj/converted -name '*.xml' -exec cp {} ./data/xml/smj/ \\;"
   },
   "repository": {
     "type": "git",
