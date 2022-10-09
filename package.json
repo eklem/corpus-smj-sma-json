@@ -1,6 +1,6 @@
 {
   "name": "corpus-smj-sma-json",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Converting two other XML dataset repositories to JSON",
   "main": "index.js",
   "scripts": {
